@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./signup_styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+  <!-- <script src="fp.js" defer></script> -->
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-success">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Farmer2Market</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="firstp.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="input-group">
+          <!-- <input type="text" class="form-control" placeholder="Search" name="search">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button> -->
+          </div>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <img src="./1backnew.png" alt="farm text" class="backimg">
+  <div class="signupFrm">
+    <div class="form">
+      <h1 style="color:#72C7A8">Sign Up</h1>
+
+
+
+      <div class="inputContainer">
+        <input type="text" class="input" id="full_name" placeholder="Name">
+        <label for="full_name" class="label">Name</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="text" class="input" id="email" placeholder="Email">
+        <label for="email" class="label">Email</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="number" class="input" id="phone_number" placeholder="Phone number">
+        <label for="phone_number" class="label">Phone Number</label>
+      </div>
+
+      <div class="inputContainer">
+        <input type="number" class="input" id="aadhar_number" placeholder="Aadhar number">
+        <label for="aadhar_number" class="label">Aadhar Number</label>
+      </div>
+
+
+
+      <div class="inputContainer">
+        <input type="text" class="input" id="password" placeholder="Password">
+        <label for="password" class="label">Password</label>
+      </div>
+
+      <!-- <div class="inputContainer">
+        <input type="text" class="input" id="confirm_pwd" placeholder="Confirm password">
+        <label for="confirm_pwd" class="label">Confirm Password</label>
+      </div> -->
+
+      <!-- <input type="submit" class="submitBtn" value="Sign up"> -->
+      <button class="submitBtn" onclick="register()" type="submit">Sign Up</button>
+      <h2 id="h"><a href="login.html">Login here</a></h2>
+    </div>
+  </div>
+
+  <!-- FIREBASE CONFIGURATION -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+  <!-- Our script must be loaded after firebase references -->
+  <script src="index.js"></script>
+</body>
+
+
+</html>

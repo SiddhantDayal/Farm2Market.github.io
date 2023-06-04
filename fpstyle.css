@@ -1,0 +1,87 @@
+img {
+    width: 150px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+img:hover {
+    border-color: #72C7A8;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.card {
+    position: fixed;
+    left: 25%;
+    top: 33%;
+    width: 450px;
+    height: 500px;
+}
+
+.card2 {
+    position: fixed;
+    left: 60%;
+    top: 33%;
+    width: 450px;
+    height: 500px;
+}
+
+#i1 {
+    position: fixed;
+    left: 28%;
+    top: 33%;
+}
+
+#i2 {
+    position: fixed;
+    left: 60%;
+    top: 33%;
+}
+
+#f {
+    position: fixed;
+    left: 31%;
+    top: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+
+}
+
+#d {
+    position: fixed;
+    left: 63.5%;
+    top: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+}
+
+h1 {
+    position: fixed;
+    font-family: 'Raleway', sans-serif;
+    top: 0;
+    left: 36%;
+    font-size: 60px;
+    color: #72C7A8;
+}
+
+h2 {
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin-top: 2.4%;
+    color: #72C7A8;
+}
+
+body {
+    background-image: url("1back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    border-color: white;
+    box-shadow: none;
+}
